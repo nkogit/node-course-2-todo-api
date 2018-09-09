@@ -125,13 +125,6 @@ describe('DELETE /todos/:id', () => {
           expect(todo).toBe(null);
           done();
         }).catch((e) => done(e));
-        // request(app)
-        //   .get(`/todos/${hexId}`)
-        //   .expect(404)
-        //   .expect((res) => {
-        //     expect(res.body.todo).toBe(undefined);
-        //   })
-        //   .end(done);
       });
   });
 
